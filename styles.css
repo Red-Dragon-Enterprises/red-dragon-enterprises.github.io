@@ -47,6 +47,9 @@ h1 span { color: var(--red); }
 .section-label { padding-top: 10px; }
 .content-column h2 { margin: 0 0 25px; font-size: clamp(2.3rem, 5vw, 4.3rem); line-height: 1.02; letter-spacing: -0.05em; }
 .content-column p { max-width: 560px; margin: 0 0 18px; color: var(--muted); font-size: 1.05rem; }
+.contact-line { margin-top: 32px !important; }
+.email-link { color: var(--red); font-weight: 700; text-decoration: none; }
+.email-link:hover, .email-link:focus { text-decoration: underline; }
 .divided { border-top: 1px solid var(--line); }
 
 .focus-list article { display: grid; grid-template-columns: 54px 1fr; gap: 20px; padding: 0 0 30px; margin-bottom: 30px; border-bottom: 1px solid var(--line); }
